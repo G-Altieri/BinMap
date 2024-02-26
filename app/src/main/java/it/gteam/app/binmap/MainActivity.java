@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater()); //posso fare getLayoutInflater perché sono in un'activity e non in un frammento
 
         setContentView(binding.getRoot());
-//test
+//test2
         // questo fa funzionare il bottomNavView tramite il click
         NavHostFragment fragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentContainerViewMainAnctivity);
         if (fragment != null) {
